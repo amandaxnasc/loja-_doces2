@@ -8,6 +8,7 @@ nome_categoria varchar(30) not null
 
 insert into categorias (nome_categoria) values
 ("Bolos"),("Tortas"),("Doces Finos"),("Doces Tradicionais");
+
  select * from categorias;
  
  create table doces(
